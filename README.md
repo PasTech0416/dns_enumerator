@@ -30,6 +30,6 @@ python src/main.py iltuotarget.com
 ## Esecuzione avanzata con specifica di una wordlist personalizzata
 python src/main.py iltuotarget.com -w /percorso/alla/tua/wordlist.txt
 
-#⚠️ Clausola di Esclusione della Responsabilità (Disclaimer)
+# ⚠️ Clausola di Esclusione della Responsabilità (Disclaimer)
 Questo strumento è stato sviluppato esclusivamente a scopo didattico e per attività autorizzate di Penetration Testing ed Ethical Hacking. Qualsiasi azione eseguita contro sistemi senza un preventivo consenso scritto è da considerarsi illegale. Lo sviluppatore non si assume alcuna responsabilità per l'uso improprio o per eventuali danni causati dall'utilizzo di questo software.
 EOF
