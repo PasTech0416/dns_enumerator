@@ -23,3 +23,9 @@ Il tool richiede Python 3.10 o superiore e la libreria `dnspython`.
 
 # Installazione delle dipendenze necessarie
 pip install -r requirements.txt
+
+# Esecuzione base (utilizza la wordlist di default subs.txt)
+python src/main.py iltuotarget.com
+
+# Esecuzione avanzata con specifica di una wordlist personalizzata
+python src/main.py iltuotarget.com -w /percorso/alla/tua/wordlist.txt
