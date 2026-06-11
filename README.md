@@ -21,11 +21,15 @@ Il software adotta un'architettura modulare ad oggetti (OOP) suddivisa nei segue
 
 Il tool richiede Python 3.10 o superiore e la libreria `dnspython`.
 
- Installazione delle dipendenze necessarie
+## Installazione delle dipendenze necessarie
 pip install -r requirements.txt
 
- Esecuzione base (utilizza la wordlist di default subs.txt)
+## Esecuzione base (utilizza la wordlist di default subs.txt)
 python src/main.py iltuotarget.com
 
- Esecuzione avanzata con specifica di una wordlist personalizzata
+## Esecuzione avanzata con specifica di una wordlist personalizzata
 python src/main.py iltuotarget.com -w /percorso/alla/tua/wordlist.txt
+
+#⚠️ Clausola di Esclusione della Responsabilità (Disclaimer)
+Questo strumento è stato sviluppato esclusivamente a scopo didattico e per attività autorizzate di Penetration Testing ed Ethical Hacking. Qualsiasi azione eseguita contro sistemi senza un preventivo consenso scritto è da considerarsi illegale. Lo sviluppatore non si assume alcuna responsabilità per l'uso improprio o per eventuali danni causati dall'utilizzo di questo software.
+EOF
